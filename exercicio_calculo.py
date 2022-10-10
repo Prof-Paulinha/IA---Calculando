@@ -30,7 +30,7 @@ def comando_voz_usuario():
         maquina.runAndWait()
         
         qtde_refri = int(input("Insira a quatidade de Refrigerante: "))
-        valor_refri = 2
+        valor_refri = 10
         total_refri = qtde_refri * valor_refri
         
         maquina.say('O valor é: {} reais' .format(total_refri))
